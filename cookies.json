@@ -1,1 +1,11 @@
-[{"domain": "cportal.nchu.edu.tw", "httpOnly": true, "name": "SESSION", "path": "/", "sameSite": "Lax", "secure": false, "value": "NGI2YWYzMTAtODA4Zi00MTI1LTljYTItZjdkMzU3MjE4MjQx"}]
+[
+  {
+    "domain": "cportal.nchu.edu.tw",
+    "httpOnly": true,
+    "name": "SESSION",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "NzI2NTcxNTctZjgxMS00MzAwLThiYTUtY2RmNDdjYzQ0MDJm"
+  }
+]

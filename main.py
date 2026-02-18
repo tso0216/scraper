@@ -1,38 +1,23 @@
 from seleniumbase import SB
 import time
-import argparse
 from config import *
-from cookies import save_cookies, load_cookies
-
-parser = argparse.ArgumentParser()
-parser.add_argument("--cookies", action="store_true")
-args = parser.parse_args()
 
 with SB(uc=True) as sb:
 
-    if args.cookies:
-        load_cookies(sb)
-        sb.open(COURSE_QUERY_URL)
-    else:
-        sb.uc_open_with_reconnect(LOGIN_URL, reconnect_time=RECONNECT_TIME)
-        time.sleep(WAIT_TIME * 2)
+    sb.uc_open_with_reconnect(LOGIN_URL, reconnect_time=RECONNECT_TIME)
+    time.sleep(WAIT_TIME * 2)
 
-        sb.type(SELECTORS["username_input"], USERNAME)
-        sb.type(SELECTORS["password_input"], PASSWORD)
+    sb.type(SELECTORS["username_input"], USERNAME)
+    sb.type(SELECTORS["password_input"], PASSWORD)
 
-        sb.wait_for_element_clickable(SELECTORS["submit_btn"], timeout=ELEMENT_TIMEOUT)
-        time.sleep(WAIT_TIME)
-        sb.click(SELECTORS["submit_btn"])
+    sb.wait_for_element_clickable(SELECTORS["submit_btn"], timeout=ELEMENT_TIMEOUT)
+    sb.click(SELECTORS["submit_btn"])
+    time.sleep(WAIT_TIME)
+    
+    sb.wait_for_element_clickable(SELECTORS["continue_btn"], timeout=ELEMENT_TIMEOUT)
+    sb.click(SELECTORS["continue_btn"])
+    time.sleep(WAIT_TIME)
 
-        sb.wait_for_element_clickable(SELECTORS["continue_btn"], timeout=ELEMENT_TIMEOUT)
-        time.sleep(WAIT_TIME)
-        sb.click(SELECTORS["continue_btn"])
-        time.sleep(WAIT_TIME)
-
-        save_cookies(sb)
-
-    sb.wait_for_element_clickable(SELECTORS["course_link"], timeout=ELEMENT_TIMEOUT)
-    sb.click(SELECTORS["course_link"])
     sb.open(COURSE_QUERY_URL)
     time.sleep(WAIT_TIME)
 
@@ -43,10 +28,9 @@ with SB(uc=True) as sb:
     sb.wait_for_element_clickable(SELECTORS["submit_query"], timeout=ELEMENT_TIMEOUT)
     sb.click(SELECTORS["submit_query"])
     time.sleep(WAIT_TIME)
-
+    
     rows = sb.find_elements(SELECTORS["result_table"])
     total_courses = len(PICK_COURSE_CODE)
-
     idx = 0
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:

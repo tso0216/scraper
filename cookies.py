@@ -9,7 +9,3 @@ def save_cookies(sb):
 def load_cookies(sb):
     with open("cookies.json", "r") as f:
         cookies = json.load(f)
-    sb.open(LOGIN_URL)
-    for cookie in cookies:
-        sb.add_cookie(cookie)
-    sb.refresh()
