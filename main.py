@@ -1,6 +1,7 @@
 from seleniumbase import SB
 import time
 from config import *
+from line_notify import send_line_message
 
 with SB(uc=True) as sb:
 
@@ -33,6 +34,7 @@ with SB(uc=True) as sb:
     total_courses = len(PICK_COURSE_CODE)
     idx = 0
 
+    results = []
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         for row in rows:
             if idx >= total_courses:
@@ -44,7 +46,16 @@ with SB(uc=True) as sb:
                 continue
      
             cell_texts = [cells[i].text for i in PICK_COLUMNS if i < len(cells)]
+            cell_texts[1] = cell_texts[1].split(" ")[0]
+
             line = " | ".join(cell_texts)
             f.write(line + "\n")
+            results.append(line)
             print(f"{idx + 1}/{total_courses}",end='\r')
             idx += 1
+
+    if results:
+        msg = "result:\n\n" + "\n".join(results)
+        send_line_message(LINE_CHANNEL_ACCESS_TOKEN, LINE_USER_ID, msg)
+    else:
+        send_line_message(LINE_CHANNEL_ACCESS_TOKEN, LINE_USER_ID, "error : no result")

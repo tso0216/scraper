@@ -7,6 +7,10 @@ load_dotenv()
 USERNAME = os.getenv("NCHU_USERNAME")
 PASSWORD = os.getenv("NCHU_PASSWORD")
 
+# LINE Messaging API
+LINE_CHANNEL_ACCESS_TOKEN = os.getenv("LINE_CHANNEL_ACCESS_TOKEN")
+LINE_USER_ID = os.getenv("LINE_USER_ID")
+
 # URL
 LOGIN_URL = "https://ccidp.nchu.edu.tw/login"
 COURSE_QUERY_URL = "https://cportal.nchu.edu.tw/cofsys/plsql/crseqry_gene_now"
@@ -31,5 +35,5 @@ SELECTORS = {
 # 爬取設定
 COURSE_CATEGORY_CODE = "EFGKM"  # all通識課程
 OUTPUT_FILE = "result.txt"
-PICK_COLUMNS = [0, 4, 5, 14]
+PICK_COLUMNS = [4, 5, 14]
 PICK_COURSE_CODE = ['0201', '0212', '0213']
