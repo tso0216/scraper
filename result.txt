@@ -1,0 +1,220 @@
+人文 | 0201 | 美術工作坊  Art Workshop | 0
+社會 | 0202 | 創業與創意  Entrepreneurial Venture and Innovation | 44
+自然 | 0203 | 園藝與生活  Horticulture and Living | 0
+社會 | 0204 | 財務管理與投資  Financial Management and Investment | 72
+社會 | 0205 | 財富管理實務  Wealth Management and Practice | 0
+人文 | 0206 | 中醫哲學  Philosophy of Chinese Medicine | 0
+社會 | 0207 | 股市投資模擬實作  Stock Investment Simulation and Practice | 0
+社會 | 0208 | 股市投資模擬實作  Stock Investment Simulation and Practice | 4
+社會 | 0209 | 設計思考  Design Thinking | 4
+社會 | 0210 | 設計思考  Design Thinking | 3
+社會 | 0211 | 設計思考  Design Thinking | 23
+自然 | 0212 | 香料植物之應用與保健機能  Application and Health Function of Spices and Herbs | 0
+人文 | 0213 | 太極拳基礎  Basic Tai Chi | 0
+社會 | 0214 | 數位輔助：英語看世界  Hello World in English with Computer Assistance | 0
+自然 | 0215 | 生活與醫療科技  Life and Medical Technology | 0
+自然 | 0216 | 生活與醫療科技  Life and Medical Technology | 0
+自然 | 0217 | 生活與醫療科技  Life and Medical Technology | 0
+自然 | 0218 | 生活與醫療科技  Life and Medical Technology | 0
+自然 | 0219 | 摺紙數學之藝術  Art of Mathematical Origami | 0
+社會 | 0220 | 財務管理與投資  Financial Management and Investment | 6
+自然 | 0221 | 草藥入門  An Introduction to Herbal Therapy | 0
+人文 | 0222 | 人文藝術博物館巡禮  A Tour of the Museum of Humanities and Art | 0
+人文 | 0223 | 人文藝術博物館巡禮  A Tour of the Museum of Humanities and Art | 0
+人文 | 0224 | 插畫與繪本技法研究  Research of Techniques on Illustration and Picture Book | 0
+自然 | 0227 | 生活實用急救技能  First Aid and Resuscitation Techniques in Daily Life | 0
+社會 | 0228 | 語言數位教學與實務  Digital Language Teaching: Theory and Practice | 28
+自然 | 0229 | 永續資源、能源暨碳管理  Sustainable Energy, Resource and Carbon Management | 23
+自然 | 0230 | 永續資源、能源暨碳管理  Sustainable Energy, Resource and Carbon Management | 14
+社會 | 0231 | 從生態學領導  Leadership by Ecology | 54
+社會 | 0232 | 從生態學領導  Leadership by Ecology | 45
+社會 | 0233 | 職涯規劃與成就自我  Career Planning and Self Achievement | 0
+社會 | 0234 | 職涯規劃與成就自我  Career Planning and Self Achievement | 0
+自然 | 0235 | 登山露營趣  Let's Go Hiking and Camping | 0
+自然 | 0236 | 登山露營趣  Let's Go Hiking and Camping | 2
+人文 | 0237 | 人聲作品介紹  Introduction to Vocal Works | 0
+人文 | 0238 | 人聲作品介紹  Introduction to Vocal Works | 0
+人文 | 0239 | 自然寫作  Nature Writing | 7
+人文 | 0240 | 日本文化見學  Study Tour of Japanese Culture | 8
+人文 | 0241 | 日本文化見學  Study Tour of Japanese Culture | 0
+人文 | 0242 | 鋼琴演奏入門  Introduction to Piano Playing | 0
+人文 | 0243 | 鋼琴演奏入門  Introduction to Piano Playing | 0
+人文 | 0246 | 傳統工藝認識與實踐：雕塑工藝  Understanding and Practicing Traditional Crafts: Sculptural Crafts | 0
+人文 | 0247 | 傳統工藝認識與實踐：雕塑工藝  Understanding and Practicing Traditional Crafts: Sculptural Crafts | 0
+社會 | 0248 | 創新思維與應用  Innovative Thinking and Application | 22
+自然 | 0249 | 燒杯中的研究魔法  Research Magic in a Beaker | 0
+人文 | 0250 | 影像與音樂  The Collaboration of Music and Films | 0
+人文 | 0251 | 影像與音樂  The Collaboration of Music and Films | 7
+人文 | 0252 | 興大跑廟趣：民間信仰與社區文史踏查  Let’s go to the Temples and Landmarks: Field Trips of Folk Beliefs and Community Histories | 0
+人文 | 0253 | 興大跑廟趣：民間信仰與社區文史踏查  Let’s go to the Temples and Landmarks: Field Trips of Folk Beliefs and Community Histories | 0
+社會 | 0254 | 微電影製作  Micro Film Production | 26
+社會 | 0255 | 微電影製作  Micro Film Production | 21
+社會 | 0256 | 趣味生技與醫學應用  Fun Biotech and Medical Applications | 0
+社會 | 0257 | 資訊科技與媒體識讀  ICT and Media Literacy | 26
+社會 | 0258 | 資訊科技與媒體識讀  ICT and Media Literacy | 10
+自然 | 0259 | 生成式AI探索與應用  Exploration and Application of Generative Artificial Intelligence | 28
+自然 | 0260 | 生成式AI探索與應用  Exploration and Application of Generative Artificial Intelligence | 8
+自然 | 0261 | 生成式AI探索與應用  Exploration and Application of Generative Artificial Intelligence | 9
+人文 | 0262 | 古典鋼琴演奏藝術  The Art of Classical Piano Performance | 0
+社會 | 0263 | 現代公民與社會實踐  Modern Citizenship and Social Practice | 17
+社會 | 0264 | AI素養與學術研究  AI Literacy and Academic Research | 9
+自然 | 0267 | 生態旅遊  Ecotourism | 3
+自然 | 0268 | 生態旅遊  Ecotourism | 0
+自然 | 0269 | 生態旅遊  Ecotourism | 1
+自然 | 0270 | 生態旅遊  Ecotourism | 19
+統合 | 0271 | 興大綠色校園沙龍  NCHU Green Campus Caf'e Seminar | 28
+統合 | 0272 | 傳統菜市場中的社會情緒學習與實作  Social and Emotional Learning and Practice in Traditional Markets | 0
+社會 | 0273 | 跨文化互動教學實務  Practice of Cross-Cultural Interactive Teaching | 25
+人文 | 0274 | 國際禮儀與專業形象  International Etiquette and Professional Image | 10
+人文 | 0276 | 興大跑廟趣：民間信仰與社區文史踏查  Let’s go to the Temples and Landmarks: Field Trips of Folk Beliefs and Community Histories | 31
+自然 | 0280 | 生成式AI與ChatGPT應用  Applications of Generative AI and ChatGPT | 0
+自然 | 0281 | BI達人養成-大數據分析及視覺化實戰  Learning Power BI for Data Visualization and analysis | 0
+自然 | 0282 | AI應用規劃基礎入門  Introduction to AI Application Planning | 0
+人文 | 0283 | 跨文化溝通與虛擬實境  Transcultural Communication and Virtual Reality | 0
+人文 | 0301 | 環境視覺與思潮運動  Environmental Perceptions and Thoughtful Movement | 4
+人文 | 0302 | 中國傳統思想經典選讀  Reading of Classical Chinese Traditional Thought | 0
+人文 | 0303 | 日本漫畫文化論  Japanese Manga Culture Inquiry | 0
+人文 | 0304 | 江戶文化  Edo Culture | 0
+人文 | 0305 | 印度不思議  The Incredible India | 0
+人文 | 0306 | 印度文化：習俗和傳統  Indian Culture: Customs and Traditions | 2
+人文 | 0307 | 臺灣環境與永續生活  Taiwan's Environment and Sustainable Living | 6
+人文 | 0308 | 臺灣環境與永續生活  Taiwan's Environment and Sustainable Living | 5
+人文 | 0309 | 東北亞歷史與文化  The History and Culture of Northeast Asia | 0
+統合 | 0310 | 氣候變遷影視題材探討  Climate Change Cinema | 7
+人文 | 0314 | 中國古典短篇小說選讀  Selected Reading of Classical Chinese Fictions | 9
+人文 | 0315 | 華語影視文學  Film and Visual Literature of Chinese Language | 0
+人文 | 0319 | 生命教育  Life Education | 15
+人文 | 0320 | 生命教育  Life Education | 19
+人文 | 0321 | 哲學概論  Introduction to Philosophy | 0
+人文 | 0325 | 近百年臺灣發展與變遷  Modern Taiwan History | 0
+人文 | 0326 | 近百年臺灣發展與變遷  Modern Taiwan History | 0
+人文 | 0327 | 中國歷史與民間傳說  Chinese History and Tales | 0
+人文 | 0328 | 全球經濟史  Global Economic History | 15
+人文 | 0329 | 臺灣歷史導論  Introduction to History of Taiwan | 0
+人文 | 0330 | 臺灣歷史導論  Introduction to History of Taiwan | 0
+人文 | 0331 | 電影中的西洋古典史  Classical History in Films | 1
+人文 | 0332 | 影視中的日本史  History of Japan in Films | 10
+人文 | 0333 | 西洋現代史導論  Introduction to Modern History of Western World | 0
+人文 | 0334 | 歷史與人生  History and Human Life | 0
+人文 | 0335 | 中國現代史  Contemporary Chinese History | 0
+人文 | 0336 | 西方健康文化史  Western Cultural History of Health | 0
+人文 | 0340 | 藝術的故事  The Story of Art | 1
+人文 | 0341 | 古典音樂賞析  Classical Music Appreciation | 3
+人文 | 0342 | 古典音樂賞析  Classical Music Appreciation | 0
+人文 | 0343 | 西洋歌劇發展史  History of Western Opera | 0
+人文 | 0344 | 世界音樂與多元文化  World Music and Culture | 19
+人文 | 0345 | 古典音樂賞析  Classical Music Appreciation | 17
+統合 | 0346 | 永續、SDGs與藝術實踐  Sustainability, SDGs, and Art | 28
+社會 | 0401 | 社會學  Sociology | 5
+社會 | 0402 | 性別·社會·個人  Gender-Society-Individual | 42
+社會 | 0403 | 食物與政治  Food and Politics | 0
+社會 | 0404 | 公共管理與公民社會  Public Management and Civil Society | 8
+人文 | 0405 | 電影中的社會變遷  Social Change Through Movies | 26
+社會 | 0406 | 婚姻與家庭  Marriage and Family | 0
+社會 | 0408 | 心理學  Psychology | 27
+社會 | 0409 | 社會心理學  Social Psychology | 1
+社會 | 0410 | 社會心理學  Social Psychology | 0
+社會 | 0411 | 教育與終身學習  Education and Life-Long Learning | 0
+社會 | 0412 | 性別與親密關係  Gender and Close Relationships | 8
+社會 | 0413 | 性別與親密關係  Gender and Close Relationships | 19
+社會 | 0416 | 法學緒論  Introduction to Legal Studies | 0
+社會 | 0417 | 法學緒論  Introduction to Legal Studies | 0
+社會 | 0418 | 民主與憲政  Democracy and Constitutionalism | 12
+社會 | 0419 | 行政學概要  Administrative Science | 8
+社會 | 0420 | 流行文化與國際關係  Popular Culture and International Relations | 37
+社會 | 0421 | 民法通論  General Introduction to the Civil Code | 29
+社會 | 0422 | 民法通論  General Introduction to the Civil Code | 0
+社會 | 0423 | 全民國防教育軍事訓練課程-國防政策  All-out Defense Education Military Training-National Defense Policies | 0
+社會 | 0424 | 全民國防教育軍事訓練課程-國際情勢  All-out Defense Education Military Training-International Situations | 0
+社會 | 0425 | 日本與亞太區域發展  The Development of Asia-Pacific Region and Japan | 5
+社會 | 0426 | 智慧財產權法概論  General Introduction on Intellectual Property | 3
+社會 | 0428 | 電影與國際關係  Films and International Relations | 0
+社會 | 0429 | 電影與國際關係  Films and International Relations | 14
+社會 | 0430 | 不懂道德經不要經商（千年的智慧決勝商場）  No Tao, No Business: Applying Laozi's Wisdom to Modern Commerce | 6
+社會 | 0433 | 媒體、民主與全球傳播  Media, Democracy and Global Communication | 6
+社會 | 0434 | 媒體、民主與全球傳播  Media, Democracy and Global Communication | 35
+社會 | 0490 | 全民國防教育軍事訓練課程-全民國防  All-out Defense Education Military Training-Civil Defense | 0
+自然 | 0502 | 半導體通識講座：與我們息息相關的半導體  Semiconductor in Our Life | 0
+自然 | 0503 | 生醫工程概論  Introduction to Biomedical Engineering | 7
+自然 | 0507 | 健康與人生  Health and Life | 0
+自然 | 0508 | 健康與人生  Health and Life | 5
+自然 | 0509 | 昆蟲世界  Insect World | 26
+自然 | 0510 | 漫談預防醫學  A Brief Introduction to Preventive Medicine | 7
+自然 | 0511 | 微生物世界  Microbial World | 0
+自然 | 0512 | 食品安全衛生  Food Safety and Sanitation | 50
+自然 | 0513 | 仁醫講學：疾病預防、臨床檢驗與治療  Attending Physician: Disease Prevention, Clinical Screening and Therapy | 0
+自然 | 0514 | 仁醫講學：疾病預防、臨床檢驗與治療  Attending Physician: Disease Prevention, Clinical Screening and Therapy | 0
+自然 | 0515 | 現代臺灣常見疾病介紹與治療  Introduction and Treatment of Common Medical Diseases in Taiwan | 0
+自然 | 0516 | 蘭大衛講堂：醫療與保健  David Landsborough：Medical and Health Care | 5
+自然 | 0517 | 蘭大衛講堂：醫療與保健  David Landsborough：Medical and Health Care | 0
+自然 | 0518 | 蘭大衛講堂：醫療與保健  David Landsborough：Medical and Health Care | 0
+自然 | 0519 | 家庭醫學面面觀  Common Diseases and Health Education of Family Medicine | 4
+自然 | 0520 | 當代醫學與健康管理  An Introduction of Modern Medicine | 0
+自然 | 0521 | 當代醫學與健康管理  An Introduction of Modern Medicine | 26
+自然 | 0522 | 機智醫療生活  Smart Medicine in Life | 0
+自然 | 0523 | 生活中的植物學  Botany in Life | 0
+自然 | 0524 | 生活中的毒理學  Toxicology in Life | 0
+自然 | 0525 | 常見疾病預防與保健  Common Disease and Health Promotion in Taiwan | 0
+自然 | 0526 | 生命科學與人生  Life Science and Human Life | 7
+自然 | 0527 | 生命科學與人生  Life Science and Human Life | 0
+自然 | 0528 | 生命科學與人生  Life Science and Human Life | 0
+自然 | 0529 | 生命的動力與延續  The Vitality and Sustainability of Life | 0
+自然 | 0530 | 生命的動力與延續  The Vitality and Sustainability of Life | 0
+自然 | 0531 | 生物醫學新知與應用  New Technologies and Applications of Biomedical Sciences | 0
+自然 | 0532 | 臺灣重要之病毒性傳染病  Important Viral Infectious Diseases in Taiwan | 2
+自然 | 0536 | 化學、醫藥與社會  Chemistry, Medicine and Society | 6
+自然 | 0537 | 實用生活化學  Practical Aspects of Chemistry | 0
+自然 | 0538 | 統計與生活  Statistics and Life | 32
+自然 | 0539 | 永續能源發展  Sustainable Energy and Development | 54
+自然 | 0540 | 生態學  Ecology | 45
+自然 | 0541 | 防災概論  Introduction to Disaster Mitigation | 3
+自然 | 0542 | 地學通論  Introduction to Physical Geography | 14
+自然 | 0590 | 環境與永續發展：跨域探究與實踐  Sustainable Development: Interdisciplinary Exploration and Practice | 6
+社會 | 0621 | 資訊科技與社會  Information Technology and Society | 26
+人文 | 0622 | 倫理學與當代議題  Ethics and Contemporary Issues | 4
+社會 | 0623 | 媒體識讀  Media Literacy | 0
+社會 | 0627 | 國際關係  International Relations | 4
+自然 | 0628 | 環境生態變遷與永續發展  Change and Sustainable Development in Environment and Ecology | 20
+社會 | 0631 | 社會關懷  Social Care | 26
+社會 | 0632 | 社會關懷  Social Care | 0
+社會 | 0633 | 中小學課後輔導與學習陪伴  Primary and Junior High School Tutoring | 5
+社會 | 0634 | 中小學課後輔導與學習陪伴  Primary and Junior High School Tutoring | 0
+社會 | 0635 | 臺灣東南亞移工移民人權議題  Human Right Issues for Southeast Asian Labors and Immigrants in Taiwan | 5
+統合 | 0636 | 臺灣原住民人物誌  Biographical Sketches of Taiwan Indigenous Peoples | 86
+社會 | 0640 | 人際關係與溝通  Interpersonal Relationship and Communication | 0
+社會 | 0641 | 人際關係與溝通  Interpersonal Relationship and Communication | 31
+社會 | 0642 | 英文演說與溝通  English Speech and Communication | 0
+統合 | 0643 | 情緒覺察與探索  Emotional Awareness and Exploration | 0
+統合 | 0644 | 職涯發展與生涯規劃：從自我探索到行動實踐  Career Development and Life Planning: From Self-Exploration to Action | 0
+社會 | 0647 | 消費者權益保護與法律  Consumer Rights Protection and Law | 8
+社會 | 0648 | 法律與生活  Law and Everyday Life | 1
+自然 | 0649 | 機能性食品與健康  Functional Foods and Wellbeing | 0
+人文 | 0653 | 策展大小事  Curation | 0
+人文 | 0657 | 臺灣美術導賞  Art of Taiwan | 0
+人文 | 0658 | 設計美學  Aesthetics of Design | 0
+人文 | 0659 | 攝影美學  Aesthetics of Photography | 0
+自然 | 0663 | 校園自然環境導覽  Guided Tour on Campus Environment | 2
+自然 | 0667 | 以科學方法解決生活問題  Using Scientific Methods to Solve Daily Life Problems | 0
+自然 | 0668 | 以科學方法解決生活問題  Using Scientific Methods to Solve Daily Life Problems | 0
+社會 | 0690 | 人際關係與社會互動  Interpersonal relations and social interaction | 0
+人文 | 0101 | 進階攝影  Advanced Photography | 12
+人文 | 0102 | 人文藝術博物館巡禮  A Tour of the Museum of Humanities and Art | 49
+人文 | 0103 | 插畫與繪本技法研究  Research of Techniques on Illustration and Picture Book | 26
+人文 | 0104 | 多元文化在臺灣  Multicultural in Taiwan | 22
+人文 | 0105 | 中臺灣古道、部落與人文旅遊  Ancient Trails, Tribes and Cultural Tours | 39
+人文 | 0106 | 太極拳基礎  Basic Tai Chi | 11
+社會 | 0107 | 資訊科技與媒體識讀  ICT and Media Literacy | 8
+人文 | 0108 | 世界音樂與多元文化  World Music and Culture | 40
+社會 | 0109 | 社會心理學  Social Psychology | 2
+社會 | 0110 | 法學緒論  Introduction to Legal Studies | 31
+自然 | 0111 | 生態學  Ecology | 59
+人文 | 0112 | 歷史·生活與學習  Life and Learning in History | 33
+人文 | 0113 | 影像與文化評論  Visual Images and Cultural Criticism | 22
+人文 | 0114 | 歷史與人生  History and Human Life | 41
+人文 | 0115 | 中國文化史  History of Chinese Civilization | 32
+人文 | 0116 | 西方健康文化史  Western Cultural History of Health | 34
+人文 | 0117 | 探索臺中城  Exploring Taichung City | 34
+自然 | 0118 | 八大藝術中的生物醫學  Biomedical Sciences in Arts | 110
+人文 | 0119 | 視覺藝術欣賞  Visual Art Appreciation | 27
+人文 | 0120 | 美感跨域遊藝思：立體創作  Cross-Disciplinary Aesthetic Laboratory: Three-Dimensional Work | 36
+社會 | 0121 | 新生專題：設計人生  Freshmen Project：Design your life | 37
