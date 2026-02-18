@@ -33,7 +33,7 @@ with SB(uc=True) as sb:
     rows = sb.find_elements(SELECTORS["result_table"])
     total_courses = len(PICK_COURSE_CODE)
     idx = 0
-
+        
     results = []
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         for row in rows:
