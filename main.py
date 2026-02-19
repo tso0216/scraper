@@ -2,6 +2,7 @@ from seleniumbase import SB
 import time
 from config import *
 from line_notify import send_line_message
+from bs4 import BeautifulSoup
 
 with SB(uc=True) as sb:
 
@@ -29,30 +30,33 @@ with SB(uc=True) as sb:
     sb.wait_for_element_clickable(SELECTORS["submit_query"], timeout=ELEMENT_TIMEOUT)
     sb.click(SELECTORS["submit_query"])
     time.sleep(WAIT_TIME)
+
+
     
-    rows = sb.find_elements(SELECTORS["result_table"])
+    html = sb.get_page_source()
+    soup = BeautifulSoup(html, "html.parser")
+    table = soup.select_one(SELECTORS["result_table"])
+    rows = table.select("tr")
+
     total_courses = len(PICK_COURSE_CODE)
-    idx = 0
-        
     results = []
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        for row in rows:
-            if idx >= total_courses:
-                break
 
-            cells = row.query_selector_all("td")
 
-            if not cells or cells[4].text not in PICK_COURSE_CODE:
-                continue
-     
-            cell_texts = [cells[i].text for i in PICK_COLUMNS if i < len(cells)]
-            cell_texts[1] = cell_texts[1].split(" ")[0]
 
-            line = " | ".join(cell_texts)
-            f.write(line + "\n")
-            results.append(line)
-            print(f"{idx + 1}/{total_courses}",end='\r')
-            idx += 1
+    for row in rows:
+        if len(results) >= total_courses:
+            break
+        cells = row.find_all("td")
+        if not cells or len(cells) <= max(PICK_COLUMNS) or cells[4].get_text(strip=True) not in PICK_COURSE_CODE:
+            continue
+
+        cell_texts = [cells[i].get_text(strip=True) for i in PICK_COLUMNS if i < len(cells)]
+        cell_texts[1] = cell_texts[1].split(" ")[0]
+
+        line = " | ".join(cell_texts)
+        results.append(line)
+        print(f"{len(results)}/{total_courses}", end='\r')
+
 
     if results:
         msg = "result:\n\n" + "\n".join(results)

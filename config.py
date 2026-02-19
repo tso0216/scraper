@@ -26,10 +26,10 @@ SELECTORS = {
     "course_link": 'a[href*="crseqry_home"]',
     "subject_select": 'select[name="p_subject"]',
     "submit_query": 'input[type="submit"]',
-    "result_table": "table#myTable01 tbody tr",
+    "result_table": "table#myTable01 tbody",
 }
 
 COURSE_CATEGORY_CODE = "EFGKM"  # all通識課程
 OUTPUT_FILE = "result.txt"
 PICK_COLUMNS = [4, 5, 14]
-PICK_COURSE_CODE = ['0201', '0212', '0213']
+PICK_COURSE_CODE = ['0528', '0529', '0109','0214','0410','0690']
