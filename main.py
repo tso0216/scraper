@@ -1,8 +1,13 @@
 from seleniumbase import SB
 import time
+import argparse
 from config import *
 from line_notify import send_line_message
 from bs4 import BeautifulSoup
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--debug", action="store_true")
+args = parser.parse_args()
 
 with SB(uc=True) as sb:
 
@@ -58,8 +63,12 @@ with SB(uc=True) as sb:
         print(f"{len(results)}/{total_courses}", end='\r')
 
 
-    if results:
-        msg = "result:\n\n" + "\n".join(results)
-        send_line_message(LINE_CHANNEL_ACCESS_TOKEN, LINE_USER_ID, msg)
+    if args.debug:
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+            f.write("\n".join(results))
     else:
-        send_line_message(LINE_CHANNEL_ACCESS_TOKEN, LINE_USER_ID, "error : no result")
+        if results:
+            msg = "result:\n\n" + "\n".join(results)
+            send_line_message(LINE_CHANNEL_ACCESS_TOKEN, LINE_USER_ID, msg)
+        else:
+            send_line_message(LINE_CHANNEL_ACCESS_TOKEN, LINE_USER_ID, "no result")
