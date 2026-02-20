@@ -7,7 +7,6 @@ load_dotenv()
 USERNAME = os.getenv("USERNAME")
 PASSWORD = os.getenv("PASSWORD")
 LINE_CHANNEL_ACCESS_TOKEN = os.getenv("LINE_CHANNEL_ACCESS_TOKEN")
-LINE_USER_ID = os.getenv("LINE_USER_ID")
 
 # URL
 LOGIN_URL = "https://ccidp.nchu.edu.tw/login"
@@ -32,4 +31,4 @@ SELECTORS = {
 COURSE_CATEGORY_CODE = "EFGKM"  # all通識課程
 OUTPUT_FILE = "result.txt"
 PICK_COLUMNS = [4, 5, 14]
-PICK_COURSE_CODE = ['0528', '0529', '0109','0214','0410','0690']
+PICK_COURSE_CODE = ['0529','0530','0109','0214','0690','0256','0233','0234','0640','0280','0106']

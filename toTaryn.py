@@ -1,4 +1,5 @@
 import requests
+from config import *
 
 def send_line_message(channel_access_token, message):
 
@@ -13,3 +14,6 @@ def send_line_message(channel_access_token, message):
     res = requests.post(url, headers=headers, json=data)
     if res.status_code != 200:
         print('request error')
+
+
+send_line_message(LINE_CHANNEL_ACCESS_TOKEN, "hello taryn")

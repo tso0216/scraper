@@ -68,7 +68,7 @@ with SB(uc=True) as sb:
             f.write("\n".join(results))
     else:
         if results:
-            msg = "result:\n\n" + "\n".join(results)
-            send_line_message(LINE_CHANNEL_ACCESS_TOKEN, LINE_USER_ID, msg)
+            msg = "hello Taryn:\n\n" + "\n".join(results)
+            send_line_message(LINE_CHANNEL_ACCESS_TOKEN, msg)
         else:
-            send_line_message(LINE_CHANNEL_ACCESS_TOKEN, LINE_USER_ID, "no result")
+            send_line_message(LINE_CHANNEL_ACCESS_TOKEN, "no result")
