@@ -1,0 +1,36 @@
+name: Course Scraper
+
+on:
+  workflow_dispatch: # 手動觸發
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install requests
+
+      - name: Install Chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable || true
+          # SeleniumBase 會自動管理 ChromeDriver
+
+      - name: Run scraper
+        env:
+          USERNAME: ${{ secrets.NCHU_USERNAME }}
+          PASSWORD: ${{ secrets.NCHU_PASSWORD }}
+          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+        run: python main.py
