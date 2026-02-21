@@ -31,4 +31,16 @@ SELECTORS = {
 COURSE_CATEGORY_CODE = "EFGKM"  # all通識課程
 OUTPUT_FILE = "result.txt"
 PICK_COLUMNS = [4, 5, 14]
-PICK_COURSE_CODE = ['0529','0530','0109','0214','0690','0256','0233','0234','0640','0280','0106']
+PICK_COURSE_CODE = ['0214', '0233', '0234', '0256', '0280', '0529', '0530', '0640', '0690']
+
+# 0214 | 數位輔助：英語看世界Hello | 0
+# 0233 | 職涯規劃與成就自我Career | 0
+# 0234 | 職涯規劃與成就自我Career | 0
+# 0256 | 趣味生技與醫學應用Fun | 0
+# 0280 | 生成式AI與ChatGPT應用Applications | 0
+# 0529 | 生命的動力與延續The | 0
+# 0530 | 生命的動力與延續The | 0
+# 0640 | 人際關係與溝通Interpersonal | 0
+# 0690 | 人際關係與社會互動Interpersonal | 0
+# 0106 | 太極拳基礎Basic | 夜校
+# 0109 | 社會心理學Social | 夜校

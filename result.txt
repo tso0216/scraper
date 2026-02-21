@@ -1,6 +1,11 @@
 0214 | 數位輔助：英語看世界Hello | 0
-0410 | 社會心理學Social | 0
-0528 | 生命科學與人生Life | 0
+0233 | 職涯規劃與成就自我Career | 0
+0234 | 職涯規劃與成就自我Career | 0
+0256 | 趣味生技與醫學應用Fun | 0
+0280 | 生成式AI與ChatGPT應用Applications | 0
 0529 | 生命的動力與延續The | 0
+0530 | 生命的動力與延續The | 0
+0640 | 人際關係與溝通Interpersonal | 0
 0690 | 人際關係與社會互動Interpersonal | 0
+0106 | 太極拳基礎Basic | 11
 0109 | 社會心理學Social | 2

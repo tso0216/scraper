@@ -6,7 +6,8 @@ from line_notify import send_line_message
 from bs4 import BeautifulSoup
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--debug", action="store_true")
+parser.add_argument("--print", action="store_true")
+parser.add_argument("--check", action="store_true")
 args = parser.parse_args()
 
 with SB(uc=True) as sb:
@@ -55,6 +56,13 @@ with SB(uc=True) as sb:
         if not cells or len(cells) <= max(PICK_COLUMNS) or cells[4].get_text(strip=True) not in PICK_COURSE_CODE:
             continue
 
+        if args.check:
+            try:
+                if int(cells[14].get_text(strip=True)) <= 0:
+                    continue
+            except ValueError:
+                continue
+
         cell_texts = [cells[i].get_text(strip=True) for i in PICK_COLUMNS if i < len(cells)]
         cell_texts[1] = cell_texts[1].split(" ")[0]
 
@@ -63,12 +71,12 @@ with SB(uc=True) as sb:
         print(f"{len(results)}/{total_courses}", end='\r')
 
 
-    if args.debug:
+    if args.print:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write("\n".join(results))
     else:
         if results:
             msg = "hello Taryn:\n\n" + "\n".join(results)
             send_line_message(LINE_CHANNEL_ACCESS_TOKEN, msg)
-        else:
+        elif not args.check:
             send_line_message(LINE_CHANNEL_ACCESS_TOKEN, "no result")
