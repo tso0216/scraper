@@ -31,7 +31,7 @@ SELECTORS = {
 COURSE_CATEGORY_CODE = "EFGKM"  # all通識課程
 OUTPUT_FILE = "result.txt"
 PICK_COLUMNS = [4, 5, 14]
-PICK_COURSE_CODE = ['0214', '0233', '0234', '0256', '0280', '0529', '0530', '0640', '0690']
+PICK_COURSE_CODE = ['0214', '0233', '0234', '0256', '0280', '0529', '0530', '0640', '0690', '0106', '0109']
 
 # 0214 | 數位輔助：英語看世界Hello | 0
 # 0233 | 職涯規劃與成就自我Career | 0
