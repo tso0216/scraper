@@ -35,3 +35,10 @@ jobs:
           PASSWORD: ${{ secrets.NCHU_PASSWORD }}
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
         run: python main.py --check
+
+      - name: Send completion notification
+        if: always()
+        env:
+          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+        run: |
+          python -c "from line_notify import send_line_message; import os; send_line_message(os.environ['LINE_CHANNEL_ACCESS_TOKEN'], '排程檢查 (scrape_check) 已經執行完畢')"
